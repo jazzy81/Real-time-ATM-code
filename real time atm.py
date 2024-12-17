@@ -15,7 +15,7 @@ class Atm:
             self.mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="jazzyjh@123M",
+            password="----------",
             database="atm_data")
             self.mycursor =  self.mydb.cursor()
              
