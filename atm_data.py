@@ -3,7 +3,7 @@ import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",
   user="root",
-  password="jazzyjh@123M",
+  password="----------",
 )
 mycursor = mydb.cursor()
 mycursor.execute("CREATE DATABASE IF NOT EXISTS atm_data")
